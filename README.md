@@ -18,5 +18,5 @@ This is a simple web-based story generator built with **Flask** and **Hugging Fa
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/flask-story-generator.git
-cd flask-story-generator
+git clone https://github.com/poojasree-6004/aiproject.git
+cd aiproject
