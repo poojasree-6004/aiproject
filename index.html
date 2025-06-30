@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Story Generator</title>
+    </head>
+    <body>
+        <h2>Enter a Story Prompt</h2>
+        <form method="POST">
+            <textarea name="prompt" rows="4" cols="50" placeholder="Enter the input"></textarea><br><br>
+            <input type="submit" value="Generate Story">
+        </form>
+        {% if story %}
+            <h3>Generated Story:</h3>
+            <p>{{ story }}</p>
+        {% endif %}
+    </body>
+</html>
